@@ -9,6 +9,7 @@ dependencies = [
     "fastapi>=0.136.1",
     "groq>=1.2.0",
     "httpx>=0.28.1",
+    "jupyter>=1.1.1",
     "redis>=7.4.0",
     "redisvl>=0.18.2",
     "sentence-transformers>=5.5.0",
