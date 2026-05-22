@@ -1,0 +1,18 @@
+[project]
+name = "infra-exploration"
+version = "0.1.0"
+description = "Exploration into Semantic Caching and Safety Gateways"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.136.1",
+    "groq>=1.2.0",
+    "httpx>=0.28.1",
+    "redis>=7.4.0",
+    "redisvl>=0.18.2",
+    "sentence-transformers>=5.5.0",
+    "torch>=2.12.0",
+    "transformers>=5.8.1",
+    "uvicorn>=0.47.0",
+]
